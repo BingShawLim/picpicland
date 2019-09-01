@@ -65,3 +65,11 @@ group :development, :test do
   gem 'rspec-rails', '~>3.8'
 end
 
+gem 'jquery-rails'
+gem 'bootstrap', '~> 4.3.1'
+
+gem 'popper_js'
+
+source 'https://rails-assets.org' do
+  gem 'rails-assets-tether', '>= 1.3.3'
+end
